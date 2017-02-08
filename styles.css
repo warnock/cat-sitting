@@ -11,6 +11,8 @@ body {
   background-color: #D0FFEB;
   color: #303B36;
   font-family: sans-serif;
+  max-width: 1500px;
+  margin: auto;
 }
 a {
   text-decoration: none;
@@ -109,4 +111,37 @@ h4 {
 .homeContent{
   text-align: center;
   font-size: 18px;
+}
+@media screen and (max-width: 998px) {
+  .catOfTheWeek {
+    float:none;
+    width: 100%;
+  }
+  .sideBar {
+    float: none;
+    width:90%;
+    display: block;
+    background-color: gray;
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+    border: solid  8px;
+    border-color: #AF3B36;
+    height: auto;
+  }
+  .container1 img {
+    width: 70%;
+    margin: 25px auto;
+    display: block;
+  }
+  h4 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .container1 p {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
 }
