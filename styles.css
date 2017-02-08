@@ -1,6 +1,5 @@
 p.intro {
   font-style: italic;
-  width: 50%;
 }
 
 p.servicesOffered {
@@ -11,6 +10,7 @@ p.servicesOffered {
 body {
   background-color: #D0FFEB;
   color: #303B36;
+  font-family: sans-serif;
 }
 a {
   text-decoration: none;
@@ -26,16 +26,25 @@ a {
   background-color: #AF3B36;
   padding: 15px;
   border: solid  8px;
-  border-color: gray;
+  border-color: white;
+
+}
+
+.headerContainer {
+  background-color: #AF3B36;
+  padding: 8px;
 }
 
 h1 {
   color: white;
   text-align: center;
   font-family: sans-serif;
-  font-size: 60px;
+  font-size: 80px;
   border: 3px;
   border-color: white;
+  font-variant: small-caps;
+  margin: 0px;
+  padding: 0px;
 }
 
 .customers {
@@ -54,9 +63,10 @@ h1 {
   background-color: gray;
   text-align: center;
   padding: 15px;
-  margin-top: 20px;
+  margin: 20px 0 0 15px;
   border: solid  8px;
   border-color: #AF3B36;
+  height: 250px;
 }
 
 .column {
@@ -75,4 +85,28 @@ img {
 .catOfTheWeek {
   float:left;
   width:30%;
+}
+.container1 p {
+  padding: 20px;
+  width: 70%;
+}
+
+.container1 {
+  width: 100%;
+  margin: auto;
+}
+
+.container1 img {
+  width: 20%;
+  margin: 0px 25px 25px 25px;
+
+}
+
+h4 {
+  margin: 0px;
+}
+
+.homeContent{
+  text-align: center;
+  font-size: 18px;
 }
