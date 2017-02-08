@@ -1,0 +1,18 @@
+p.intro {
+  font-style: italic;
+  width: 50%;
+}
+
+p.servicesOffered {
+  font-weight: bold;
+  width: 50%;
+}
+
+body {
+  background-color: #D0FFEB;
+  color: #303B36;
+}
+a {
+  text-decoration: none;
+  color: #AF3B36;
+}
