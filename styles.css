@@ -1,3 +1,4 @@
+
 p.intro {
   font-style: italic;
 }
@@ -8,11 +9,11 @@ p.servicesOffered {
 }
 
 body {
-  background-color: #D0FFEB;
   color: #303B36;
   font-family: sans-serif;
   max-width: 1500px;
   margin: auto;
+  background-color:white;
 }
 a {
   text-decoration: none;
@@ -25,7 +26,7 @@ a {
 }
 
 .headerColor {
-  background-color: #AF3B36;
+  background-color: #403E3F;
   padding: 15px;
   border: solid  8px;
   border-color: white;
@@ -33,7 +34,7 @@ a {
 }
 
 .headerContainer {
-  background-color: #AF3B36;
+  background-color: #403E3F;
   padding: 8px;
 }
 
@@ -41,7 +42,7 @@ h1 {
   color: white;
   text-align: center;
   font-family: sans-serif;
-  font-size: 80px;
+  font-size: 7vw;
   border: 3px;
   border-color: white;
   font-variant: small-caps;
@@ -50,7 +51,7 @@ h1 {
 }
 
 .customers {
-  background-color: #AF3B36;
+  background-color: #403E3F;
   padding: 15px;
   color: white;
   text-align: center;
@@ -62,12 +63,11 @@ h1 {
 .sideBar {
   float: right;
   width: 30%;
-  background-color: gray;
   text-align: center;
   padding: 15px;
   margin: 20px 0 0 15px;
   border: solid  8px;
-  border-color: #AF3B36;
+  border-color: #403E3F;
   height: 250px;
 }
 
@@ -112,6 +112,10 @@ h4 {
   text-align: center;
   font-size: 18px;
 }
+
+h2 {
+  color:#AF3B36;
+}
 @media screen and (max-width: 998px) {
   .catOfTheWeek {
     float:none;
@@ -121,12 +125,11 @@ h4 {
     float: none;
     width:90%;
     display: block;
-    background-color: gray;
     text-align: center;
     padding: 0px;
     margin: auto;
     border: solid  8px;
-    border-color: #AF3B36;
+    border-color: #403E3F;
     height: auto;
   }
   .container1 img {
@@ -144,4 +147,15 @@ h4 {
     margin: 0px;
     padding: 0px;
   }
+}
+
+@media screen and (max-width: 615px) {
+  .column {
+    width: 90%;
+    float: none;
+    margin: 10px auto;
+    display: block;
+
+  }
+
 }
